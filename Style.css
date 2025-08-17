@@ -1,0 +1,59 @@
+/* Pengaturan dasar untuk seluruh halaman */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Pengaturan untuk header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Pengaturan untuk konten utama */
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+.intro, .konten-lain {
+    background: #fff;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.konten-lain ul {
+    list-style: none;
+    padding: 0;
+}
+
+.konten-lain li {
+    background: #eee;
+    margin-bottom: 0.5rem;
+    padding: 0.75rem;
+    border-left: 4px solid #333;
+}
+
+/* Pengaturan untuk footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
